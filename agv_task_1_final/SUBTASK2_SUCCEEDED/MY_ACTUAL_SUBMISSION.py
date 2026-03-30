@@ -6,7 +6,6 @@ import pybullet as p
 import pybullet_data
 import time
 import math
-from lucas_kanade import LucasKanadeTracker_1
 
 
 def make_obstacle_texture(size: int = 128, tile: int = 10) -> str:
